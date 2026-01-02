@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="pipe">
+        <attr name="pipe_outline" format="color"/>
+        <attr name="pipe_fill" format="color"/>
+        <attr name="pipe_node_outline" format="color"/>
+        <attr name="pipe_node_fill" format="color"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,32 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PuzzleGame" parent="Theme.Material3Expressive.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.PuzzleGame" parent="Base.Theme.PuzzleGame" />
+
+    <style name="StylePipeUnpowered" parent="Base.Theme.PuzzleGame">
+        <item name="pipe_outline">@color/pipe_outline_color</item>
+        <item name="pipe_fill">@color/pipe_fill_unpowered_color</item>
+    </style>
+    <style name="StylePipePowered" parent="StylePipeUnpowered">
+        <item name="pipe_fill">@color/pipe_fill_powered_color</item>
+    </style>
+
+    <style name="StylePipeNodeUnpowered" parent="StylePipeUnpowered">
+        <item name="pipe_node_outline">@color/pipe_outline_color</item>
+        <item name="pipe_node_fill">@color/pipe_fill_unpowered_color</item>
+    </style>
+    <style name="StylePipeNodePowered" parent="StylePipePowered">
+        <item name="pipe_node_outline">@color/pipe_outline_color</item>
+        <item name="pipe_node_fill">@color/pipe_fill_powered_color</item>
+    </style>
+
+    <style name="borderlessButtonStyle" parent="@style/Widget.AppCompat.Button.Borderless">
+        <!-- your style -->
+    </style>
+
+
+</resources>

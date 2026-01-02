@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">NET</string>
+    <string name="new_game">New Game</string>
+    <string name="resume">Resume</string>
+    <string name="settings">Settings</string>
+    <string name="menu">Menu</string>
+    <string name="info">Info</string>
+    <string name="close">Close</string>
+    <string name="back">Back</string>
+    <string name="info_text">This is the game &quot;NET&quot;. Inspired by one of the original games of www.chiark.greenend.org.uk and made to be playable on android devices. </string>
+
+    <string name="moves_0">Moves: 0</string>
+    <string name="moves_format">Moves: %1$d</string>
+    <string name="time_0_00">Time: 0:00</string>
+    <string name="time_format">Time: %1$d:%2$02d</string>
+    <string name="undo">Undo</string>
+    <string name="restart">Restart</string>
+    <string name="solve">Solve</string>
+    <string name="cell_size_settings">Cell Size Settings</string>
+    <string name="how_to_play">How to Play</string>
+    <string name="how_to_play_text">Rotate the grid squares by tapping on them so that they join up into a single connected network with no loops.</string>
+    <string name="network">Network</string>
+    <string name="lock">Lock</string>
+
+    <string name="sample_screen_title">Game Settings</string>
+    <string name="game_history">Game History</string>
+
+    <string name="custom">Custom</string>
+    <string name="width">Width</string>
+    <string name="height">Height</string>
+    <string name="walls_wrap_around">Walls wrap around</string>
+    <string name="ensure_unique_solution">Ensure unique solution</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="size_5x5">5x5</string>
+    <string name="size_7x7">7x7</string>
+    <string name="size_8x8">8x8</string>
+    <string name="size_11x11">11x11</string>
+    <string name="size_13x13">13x13</string>
+    <string name="size_5x5_wrapping">5x5 wrapping</string>
+    <string name="size_7x7_wrapping">7x7 wrapping</string>
+    <string name="size_9x9_wrapping">9x9 wrapping</string>
+    <string name="size_11x11_wrapping">11x11 wrapping</string>
+    <string name="size_13x13_wrapping">13x13 wrapping</string>
+
+    <string name="history_moves_format">Moves: %1$d</string>
+    <string name="history_time_format">Time: %1$d:%2$02d</string>
+
+
+    <string name="curviness">Curviness</string>
+
+    <string name="victory">Victory!</string>
+    <string name="victory_message">Congratulations! You solved the puzzle!</string>
+    <string name="victory_moves">Moves: %1$d</string>
+    <string name="victory_time">Time: %1$d:%2$02d</string>
+    <string name="inner_thickness">Inner Thickness</string>
+    <string name="outer_thickness">Outer Thickness</string>
+</resources>
